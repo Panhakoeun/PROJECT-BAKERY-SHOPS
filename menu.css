@@ -1,0 +1,84 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    background-color: rgba(255, 192, 203, 0.426);
+    height: 200vh;
+    
+    
+}
+.h1-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.menu-card1{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 1px gray;
+    border-radius: 10px;
+    margin: 10px;
+  
+}
+.menu-card1:hover{
+    transform: translateY(-15px);
+    background: oldlace;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.info p{
+    color: gray;
+}
+.info h3{
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.info button{
+    height: 30px;
+    width: 100px;
+    background: orangered;
+    border-radius: 15px;
+    border: none;
+    margin: 20px;
+    font-weight: bold;
+}
+.info button:hover{
+    transform: translateY(-10px);
+    background: greenyellow;
+}
+.btn-more button{
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}
+.btn-more button:hover{
+    transform: translateY(-10px);
+    background: grey;
+}
