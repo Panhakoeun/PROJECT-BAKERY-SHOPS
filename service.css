@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.service-page{
+    background: rgba(255, 192, 203, 0.482);
+    height: 180vh;
+    padding: 25px;
+}
+.header-service h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-service p{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.card-service{
+    display: flex;
+}
+.card-service1{
+    background: ghostwhite;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 50px;
+    box-shadow: 2px 3px 4px 5px gray;
+}
+.card-service1 img{
+    border-radius: 10px;
+}
+.info-all{
+    display: flex;
+    flex-direction: column;
+   
+}
+.info-service{
+    padding: 20px;
+}
+.icon-service{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    color: orange;
+}
+.card-service1:hover{
+    transform: translateY(-15px);
+    background: gray;
+}
+.cafe-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cafe-info p{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.display-chef{
+    display: flex;
+    flex-wrap: wrap;
+}
+.picture-chef{
+    display: flex;
+    padding: 40px;
+}
+.service-chef{
+    background: ghostwhite;
+    width: 320px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.img-chef img{
+    border-radius: 10px;
+}
+.name-chef{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: orange;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+   
+}
+.name-chef h4{
+    font-weight: bolder;
+    font-size: 24px;
+}
+.service-chef:hover{
+    transform: translateY(-15px);
+    background: gray;
+}
+
