@@ -108,4 +108,21 @@
     transform: translateY(-15px);
     background: gray;
 }
+.display-chef{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.see-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.see-all button{
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+
+}
 
