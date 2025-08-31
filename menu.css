@@ -136,6 +136,10 @@
     height: 200px;
     border-radius: 10px;
 }
+.two-card:hover{
+    transform:translate(-15px);
+    background: gray;
+}
 .card-menu1{
     background: orangered;
     width: 70px;
