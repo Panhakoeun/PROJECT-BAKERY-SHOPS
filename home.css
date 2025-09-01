@@ -4,14 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+
 }
 
-body {
-    margin: 0 100px;
-    background-color: #ffeae0;
-}
-
-/* ========MENU======== */
 
 .nav {
     width: 100%;
@@ -89,8 +85,7 @@ input{
     gap: 30px;
     margin-top: 120px;
     align-items: center;
-    justify-content: space-between;
-    width: 100;
+    justify-content: center;
 }
 
 
@@ -126,12 +121,18 @@ input{
 /* ============BUTTON=========== */
 
 .content .content-left button{
+    margin-left: 420px;
     padding: 10px 23px;
     background-color: #ff511c;
     color: #ffff;
     border-radius: 5px;
     border: none;
     cursor: pointer;
+}
+.content .content-left button:hover{
+    transform: translateY(-15px);
+    background: gray;
+
 }
 
 /* Content IMAGE */
@@ -237,6 +238,192 @@ input{
     display: flex;
     align-items: center;
     justify-content: center;    
+}
+/* menu */
+.menu {
+    background-color: rgba(255, 192, 203, 0.426);
+   
+}
+
+.h1-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.h1-info p {
+    padding-top: 15px;
+}
+
+.menu-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu-card1 {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 1px gray;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.3s;
+    
+
+}
+
+.menu-card1:hover {
+    transform: translateY(-15px);
+    background: oldlace;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.info p {
+    color: gray;
+}
+
+.info h3 {
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.info button {
+    height: 30px;
+    width: 100px;
+    background: orangered;
+    border-radius: 15px;
+    border: none;
+    margin: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+
+.info button:hover {
+    transform: translateY(-10px);
+    background: greenyellow;
+}
+
+.btn-more {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-more button {
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+
+}
+
+.btn-more button:hover {
+    transform: translateY(-10px);
+    background: grey;
+    cursor: pointer;
+}
+
+
+.food-head h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.picture-menu img {
+    box-shadow: 2px 1px 2px gray;
+}
+
+.picture-align {
+    padding-left: 90px;
+    display: flex;
+}
+
+.picture-menu {
+    background: gold;
+    width: 400px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 6px 7px gray;
+    border-radius: 20px;
+}
+
+.info-menu {
+    padding-left: 30px;
+}
+
+.info-menu p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-menu h3 {
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+    padding-bottom: 10px;
+}
+
+.icon-menu-food {
+    display: flex;
+    gap: 40px;
+    padding-top: 30px;
+}
+
+.two-card {
+    background-color: ghostwhite;
+    width: 370px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.two-card:hover {
+    transform: translate(-15px);
+    background: gray;
+    cursor: pointer;
+}
+
+.card-menu1 {
+    background: orangered;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-icon {
+    padding: 10px;
 }
 
 
