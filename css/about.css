@@ -300,6 +300,14 @@ body {
 .member-social a:hover {
     color: #3730a3;
 }
+.mape{
+    display: flex;
+    color: #ff5252;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
 
 
 /* Responsive Design */
