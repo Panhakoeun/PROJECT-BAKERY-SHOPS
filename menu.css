@@ -41,6 +41,8 @@
     box-shadow: 2px 2px 1px gray;
     border-radius: 10px;
     margin: 10px;
+    transition: 0.3s;
+    
 
 }
 
@@ -76,6 +78,7 @@
     border: none;
     margin: 20px;
     font-weight: bold;
+    cursor: pointer;
 
 
 }
@@ -102,9 +105,9 @@
 .btn-more button:hover {
     transform: translateY(-10px);
     background: grey;
+    cursor: pointer;
 }
 
-.famouse-food {}
 
 .food-head h2 {
     display: flex;
@@ -168,6 +171,7 @@
 .two-card:hover {
     transform: translate(-15px);
     background: gray;
+    cursor: pointer;
 }
 
 .card-menu1 {
