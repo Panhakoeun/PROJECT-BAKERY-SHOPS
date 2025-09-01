@@ -1,50 +1,55 @@
-
-*{
+* {
     padding: 0;
     margin: 0;
 }
-.menu{
+
+.menu {
     background-color: rgba(255, 192, 203, 0.426);
-    height: 210vh;
+    height: 190vh;
 }
-.h1-info{
+
+.h1-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
 }
-.h1-info p{
+
+.h1-info p {
     padding-top: 15px;
 }
 
-.menu-card{
+.menu-card {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 }
-.menu-card1{
+
+.menu-card1 {
     width: 300px;
     height: 300px;
     background-color: white;
     display: flex;
     flex-direction: column;
-    
+
     justify-content: center;
     align-items: center;
     box-shadow: 2px 2px 1px gray;
     border-radius: 10px;
     margin: 10px;
-  
+
 }
-.menu-card1:hover{
+
+.menu-card1:hover {
     transform: translateY(-15px);
     background: oldlace;
 }
-.info{
+
+.info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,15 +58,17 @@
     padding: 10px;
 }
 
-.info p{
+.info p {
     color: gray;
 }
-.info h3{
+
+.info h3 {
     color: red;
     font-weight: bolder;
     font-size: 20px;
 }
-.info button{
+
+.info button {
     height: 30px;
     width: 100px;
     background: orangered;
@@ -69,37 +76,53 @@
     border: none;
     margin: 20px;
     font-weight: bold;
+
+
 }
-.info button:hover{
+
+.info button:hover {
     transform: translateY(-10px);
     background: greenyellow;
 }
-.btn-more button{
+
+.btn-more {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-more button {
     width: 100px;
     height: 30px;
     font-weight: bold;
+
 }
-.btn-more button:hover{
+
+.btn-more button:hover {
     transform: translateY(-10px);
     background: grey;
 }
-.famouse-food{
-    
-}
-.food-head h2{
+
+.famouse-food {}
+
+.food-head h2 {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 30px;
 }
-.picture-menu img{
+
+.picture-menu img {
     box-shadow: 2px 1px 2px gray;
 }
-.picture-align{
+
+.picture-align {
     padding-left: 90px;
     display: flex;
 }
+
 .picture-menu {
     background: gold;
     width: 400px;
@@ -111,36 +134,43 @@
     box-shadow: 5px 5px 6px 7px gray;
     border-radius: 20px;
 }
+
 .info-menu {
     padding-left: 30px;
 }
-.info-menu p{
+
+.info-menu p {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.info-menu h3{
+
+.info-menu h3 {
     font-weight: bold;
     font-size: 30px;
     color: red;
     padding-bottom: 10px;
 }
-.icon-menu-food{
+
+.icon-menu-food {
     display: flex;
     gap: 40px;
     padding-top: 30px;
 }
-.two-card{
+
+.two-card {
     background-color: ghostwhite;
     width: 370px;
     height: 200px;
     border-radius: 10px;
 }
-.two-card:hover{
-    transform:translate(-15px);
+
+.two-card:hover {
+    transform: translate(-15px);
     background: gray;
 }
-.card-menu1{
+
+.card-menu1 {
     background: orangered;
     width: 70px;
     height: 70px;
@@ -150,8 +180,7 @@
     justify-content: center;
     align-items: center;
 }
-.info-icon{
+
+.info-icon {
     padding: 10px;
 }
-
-
