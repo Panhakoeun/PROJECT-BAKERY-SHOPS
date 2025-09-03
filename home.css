@@ -1198,6 +1198,11 @@ input {
         justify-content: center;
     }
 
+    .h2 {
+        padding-left: 10px;
+        font-size: 10px;
+    }
+
     .picture-align {
         padding-left: 50px;
         display: flex;
@@ -1271,45 +1276,101 @@ input {
 }
 
 @media (max-width: 820px) and (min-width: 768px) {
-    .card-service{
+    .card-service {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .card-service1  {
+
+    .card-service1 {
         width: 235px;
-        
+
     }
-    .card-service1 img{
-       padding: 10px
+
+    .card-service1 img {
+        padding: 10px
     }
-    .display-chef{
+
+    .display-chef {
         display: flex;
-       justify-content: center;
-       align-items: center;
-        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
         flex-wrap: wrap;
     }
-    .picture-chef{
+
+    .picture-chef {
         width: 335px;
     }
-    .img-chef img{
+
+    .img-chef img {
         padding: 10px;
     }
-  .delivery-cad1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 5px;
- 
-  }
-    .delivery-cad1 h3{
+
+    .delivery-cad1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+
+    }
+
+    .delivery-cad1 h3 {
         font-size: 16px;
     }
-    .delivery-cad p{
+
+    .delivery-cad p {
         font-size: 12px;
 
     }
+
+    .footer {
+        height: 70vh;
+    }
+}
+
+@media (max-width: 428px) and (min-width: 320px) {
+    .nav{
+        display: flex;
+        gap: 10px;
+    }
+    .logo{
+        font-size: 8px;
+    }
+    ul{
+        font-size: 9px;
+    
+    }
+    .signin{
+       font-size: 10px;
+    }
+    .signup{
+        font-size: 10px;
+        margin-right: 100px;
+    }
+    .grid{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .h2{
+       margin-left: -500px;
+       width: 10px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-left{
+        
+         width: 30px;
+    }
+    .info {
+      
+    }
+   
+
 }
