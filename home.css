@@ -15,6 +15,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);  
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .nav.logo h1 {
@@ -1282,10 +1289,13 @@ input {
     .card-service {
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: center;
+
     }
-    .card-service1{
-        width: 300px;
+
+    .card-service1 {
+        width: 275px;
+
     }
 
     .card-service1 img {
@@ -1314,10 +1324,14 @@ input {
         justify-content: space-between;
         align-items: center;
         text-align: center;
-
-
     }
-    .famouse-food{
+
+    .card-delivery {
+        display: flex;
+        gap: 50px;
+    }
+
+    .famouse-food {
         margin-left: -40px;
     }
 
@@ -1381,7 +1395,7 @@ input {
         width: 30px;
     }
 
- 
+
 
 
 }
