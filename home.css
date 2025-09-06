@@ -526,7 +526,7 @@ input {
 
 .service-chef {
     background: ghostwhite;
-    width: 320px;
+    width: 350px;
     height: 350px;
     display: flex;
     justify-content: center;
@@ -822,9 +822,7 @@ input {
     transform: translateY(-2px);
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
-@media(max-width:440px) {
-    
-}
+
 
 
 
@@ -1383,7 +1381,7 @@ input {
         width: 30px;
     }
 
-    .info {}
+ 
 
 
 }
