@@ -1283,7 +1283,7 @@ input {
     }
 }
 
-/* responsive template */
+/* responsive teplate */
 
 @media (max-width: 900px) and (min-width: 600px) {
     .card-service {
@@ -1291,6 +1291,9 @@ input {
         flex-direction: row;
         justify-content: center;
 
+    }
+    .content .content-left .info p{
+        margin-left: 20px;
     }
 
     .content {
