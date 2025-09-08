@@ -1489,6 +1489,7 @@ input {
         height: 80px;
         margin-top: 50px;
         margin-left: -110px;
+        margin-bottom: 20px;
      }
      .card-menu1 img {
         width: 50px;
@@ -1506,6 +1507,8 @@ input {
      }
      .service-page{
         height: 500vh;
+        background-color: white;
+        
      }
      .header-service p {
         font-weight: normal;
@@ -1527,6 +1530,7 @@ input {
      }
      .cafe-service{
         height: 400vh;
+       
      }
      .cafe-info p{
         font-size: 12px;
