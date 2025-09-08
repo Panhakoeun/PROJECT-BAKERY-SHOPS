@@ -23,7 +23,7 @@ In home page we show about some thing that has in Our wecsite one project that h
 
 #### 🖼️sreanshort pic of webisite
 ![Dashboard](./pic.jpg)
-![Dashboard](./Photo.jpg)
+![Dashboard](./photo.jpg)
 
 ## 🍰Menue page
 Our website also has Menue page that give user easy to use and easy to find new cake that they want and they can know about the price can and older. They can fond new cake and fond for buy it and get more in formation bout cake and price🤑.
