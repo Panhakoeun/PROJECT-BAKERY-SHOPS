@@ -41,7 +41,7 @@ In website has Sever page also like this we can help people ot user to know abou
 - card(show about th sevice in the website)
 ### 🖼️sreanshort picture of sevice page
 ![Dashboard](./image.png)
-![Dashboard](./image%20copy.png)
+![Dashboard](./image_copy.png)
 
 ## 💡About page
 In about page has alot of information about our shop that show about our team card cake
