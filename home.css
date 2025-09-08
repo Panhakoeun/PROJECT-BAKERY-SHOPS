@@ -1292,7 +1292,8 @@ input {
         justify-content: center;
 
     }
-    .content .content-left .info p{
+
+    .content .content-left .info p {
         margin-left: 20px;
     }
 
@@ -1388,42 +1389,170 @@ input {
 
 
 
-.content .content-left .info p {
-    font-size: 12px;
-    line-height: 2pc;
-    margin-bottom: 30px;
-    font-family: sans-serif;
-    margin-left: 30px;
-}
+    .content .content-left .info p {
+        font-size: 12px;
+        line-height: 2pc;
+        margin-bottom: 30px;
+        font-family: sans-serif;
+        margin-left: 30px;
+    }
 
-.content .content-left button {
-    margin-left: 70px;
-}
+    .content .content-left button {
+        margin-left: 70px;
+    }
 
-.grid {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 200px;
-}
+    .grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 200px;
+    }
 
-.content-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 160px;
-    font-size: 10px;
-}
+    .content-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 160px;
+        font-size: 10px;
+    }
 
-.content .content-right img {
-    width: 110px;
-    
-   margin-left: 150px;
+    .content .content-right img {
+        width: 110px;
+        margin-left: 150px;
+    }
 
-}
+    .category .card-list .card {
+        width: 80px;
+    }
 
+    .category .card-list .card img {
+        width: 50px;
+        height: auto;
+        bottom: 210px;
+        left: 15px;
+        object-fit: cover;
+        object-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        box-shadow: 0 20px 20px#b16047;
+        border-radius: 50%;
+    }
+
+    .category .list-items .card-list {
+        margin-left: -25px;
+    }
+    .picture-menu{
+        width: 150px;
+        height: 190px;
+        margin-left: -80px;
+        
+    }
+     .picture-menu img{
+       padding: 100px;
+       border: none;
+       box-shadow: none;
+       
+     }
+     .info-menu p {
+        font-size: 8px;
+        /* margin-left: 30px; */
+        width: 180px;
+     }
+     .info-menu{
+        margin-left: -20px;
+     }
+     .two-card{
+        width: 200px;
+        height: 100px;
+     }
+     .card-menu1 img{
+        padding: 10px;
+     }
+     .card-menu1{
+        width: 40px;
+        height: 30px;
+     }
+     .info-icon h4{
+        font-size: 8px;
+     }
+     .info-icon p{
+        font-size: 7px;
+        width: 130px;
+     }
+     .icon-menu-food{
+        margin-left: -30px;
+     }
+     .two-card {
+        width: 150px;
+        height: 80px;
+        margin-top: 50px;
+        margin-left: -110px;
+     }
+     .card-menu1 img {
+        width: 50px;
+     }
+     .card-menu1{
+        width: 30px;
+     } 
+     .info-icon{
+        margin-top: -15px;
+     }
+     .icon-menu-food{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+     }
+     .service-page{
+        height: 500vh;
+     }
+     .header-service p {
+        font-weight: normal;
+        width: 350px;
+        margin-left: -30px;
+        font-size: 12px;
+     }
+     .card-service{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     .card-service1 img{
+        padding: 10px;
+     }
+     .card-service1{
+        width: 250px;
+     }
+     .cafe-service{
+        height: 400vh;
+     }
+     .cafe-info p{
+        font-size: 12px;
+        font-weight: normal;
+        width: 350px;
+     }
+     .see-all{
+        margin-top: 700px;
+     }
+ 
+     .delivery-controll{
+        margin-top: 100px;
+     }
+     .about-respon{
+        margin-top: 400vh;
+     }
+     .card-delivery{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+     }
+     .footer {
+        display: flex;
+        justify-content: space-around;
+     }
+   
 
 
 }
