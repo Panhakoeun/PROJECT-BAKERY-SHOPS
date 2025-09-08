@@ -22,8 +22,8 @@ In home page we show about some thing that has in Our wecsite one project that h
 - card (card for show some cake that most populer)
 
 #### 🖼️sreanshort pic of webisite
-![My Photo](./pic.jpg)
-![My Photo](./photo9.jpg)
+![Dashboard](./pic.jpg)
+![Dashboard](./photo9.jpg)
 
 ## 🍰Menue page
 Our website also has Menue page that give user easy to use and easy to find new cake that they want and they can know about the price can and older. They can fond new cake and fond for buy it and get more in formation bout cake and price🤑.
